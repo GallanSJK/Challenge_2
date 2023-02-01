@@ -79,6 +79,7 @@ h2.accordion-header {
     font-size: 16px;
     line-height: 24px;
 
+    padding-top: 20px;
 }
 
 .col-md-3 {
@@ -97,6 +98,10 @@ h2.accordion-header {
     font-weight: 300;
     font-size: 14px;
     line-height: 20px;
+ }
+
+ p.item {
+    padding-top: 10px;
  }
 
 footer a{ 
@@ -147,7 +152,6 @@ section.faq {
 }
 
 #why-us .card {
-    padding-top: 15px;
     width: 268px;
     height: 196px;
 }
