@@ -156,7 +156,14 @@ section.faq {
     height: 196px;
 }
 
+#testimonial .card-body {
+    display: flex;
+    align-items: center;
+    background-color: #F1F3FF;
+}
+
 .banner {
+    margin-top: 100px;
     height: 400px;
     color: white;
     background-color:#0D28A6;
@@ -203,48 +210,6 @@ section.faq {
     border-radius: 4px;
 }
 
-.carousel-control-next-icon {
-    content: url('../img/right_button.svg');
-    margin-left: -1000px;
-    align-self: flex-end;
-}
-
-.carousel-control-prev-icon {
-    content: url('../img/left_button.svg');
-    margin-right: -1000px;
-    align-self: flex-end;
-}
-.carousel-item > img {
-    display: flex;
-    margin: 0 auto;
-     float: none;
-     text-align: center;
-  }
-
-.carousel-item > .carousel-caption {
-    color: black;
-    width: 415px;
-    margin-bottom: 20px;
-    margin-left: 280px;
-    text-align: start; 
-}
-
-.carousel-item > .carousel-caption > p{
-    padding-top: 10px;
-}
-
-  .checked {
-    color: orange;
-  }
-  
-  .carousel-item > .carousel-caption > img {
-    position: absolute;
-    width: 80px;
-    height: 80px;
-    top: 60px;
-    margin-left: -105px;
-}
-  
 footer {
     padding-top: 150px;
 }
@@ -259,7 +224,6 @@ footer a:hover {text-decoration:underline;}
 }
 .swiper-container {
     width: 50%;
-    height: 100%;
     overflow: visible;
     margin: 0 auto;
 }
@@ -272,11 +236,15 @@ footer a:hover {text-decoration:underline;}
 button.swiper-prev{
     display: flex;
     content: url('../img/left_button.svg');
-    align-self: flex-end;
+    border: 0;
+    background: transparent;
+    justify-items: center;
 }
 
 button.swiper-next{
     display: flex;
     content: url('../img/right_button.svg');
-    align-self: flex-end;
+    border: 0;
+    background: transparent;
+    justify-items: center;
 }
