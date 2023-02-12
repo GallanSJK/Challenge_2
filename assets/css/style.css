@@ -74,7 +74,6 @@ h3 {
 }
 
  p,li { 
-    max-width: 1500px;
     font-family: 'Helvetica';
     font-style: normal;
     font-weight: 300;
@@ -195,6 +194,20 @@ footer a:hover {text-decoration:underline;}
     margin-top: 20px;
 }
 
+/* button.swiper-prev , button.swiper-next {
+    background : white;
+    border : 1px solid #c4c4c4;
+    margin: 0 5px;
+    border-radius : 100%;
+    font-size : 1.5rem;
+    line height : 1em;
+    height : 32px;
+    width : 32px;
+} */
+
+
+
+
 button.swiper-prev{
     display: flex;
     content: url('../img/left_button.svg');
@@ -233,7 +246,7 @@ button.swiper-next{
 
  @media screen and (max-width: 768px) {
     .swiper-container {
-        width: 100%;
+        width: 90%;
     }
     footer{
         padding-top: 50px;
